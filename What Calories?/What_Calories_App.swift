@@ -11,7 +11,7 @@ import SwiftUI
 struct What_Calories_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MealListView()
         }
     }
 }

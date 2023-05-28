@@ -30,6 +30,8 @@
 		E09E76182A23FFD2000B4E17 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E76172A23FFD2000B4E17 /* Metrics.swift */; };
 		E09E761A2A23FFFD000B4E17 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E76192A23FFFD000B4E17 /* Color+Extension.swift */; };
 		E09E761C2A2406DB000B4E17 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E761B2A2406DB000B4E17 /* IngredientsView.swift */; };
+		E09E761E2A240CB2000B4E17 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E761D2A240CB2000B4E17 /* MealListView.swift */; };
+		E09E76202A240CC4000B4E17 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E761F2A240CC4000B4E17 /* MealDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		E09E76172A23FFD2000B4E17 /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
 		E09E76192A23FFFD000B4E17 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		E09E761B2A2406DB000B4E17 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
+		E09E761D2A240CB2000B4E17 /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
+		E09E761F2A240CC4000B4E17 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +253,8 @@
 		E09E75F92A23DA25000B4E17 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				E09E761D2A240CB2000B4E17 /* MealListView.swift */,
+				E09E761F2A240CC4000B4E17 /* MealDetailView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -417,8 +423,10 @@
 				E09E760C2A23E352000B4E17 /* Data Error.swift in Sources */,
 				E09E75C72A23D9A1000B4E17 /* What_Calories_App.swift in Sources */,
 				E09E75FE2A23E154000B4E17 /* MealDetailResponse.swift in Sources */,
+				E09E76202A240CC4000B4E17 /* MealDetailView.swift in Sources */,
 				E09E760A2A23E342000B4E17 /* MealService.swift in Sources */,
 				E09E76082A23E32D000B4E17 /* MealEndpoint.swift in Sources */,
+				E09E761E2A240CB2000B4E17 /* MealListView.swift in Sources */,
 				E09E76162A23FF97000B4E17 /* AsyncImage.swift in Sources */,
 				E09E76042A23E30B000B4E17 /* Endpoint.swift in Sources */,
 				E09E76122A23F207000B4E17 /* MealListVM.swift in Sources */,
