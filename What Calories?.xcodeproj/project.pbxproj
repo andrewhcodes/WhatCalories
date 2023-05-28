@@ -29,6 +29,7 @@
 		E09E76162A23FF97000B4E17 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E76152A23FF97000B4E17 /* AsyncImage.swift */; };
 		E09E76182A23FFD2000B4E17 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E76172A23FFD2000B4E17 /* Metrics.swift */; };
 		E09E761A2A23FFFD000B4E17 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E76192A23FFFD000B4E17 /* Color+Extension.swift */; };
+		E09E761C2A2406DB000B4E17 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E761B2A2406DB000B4E17 /* IngredientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		E09E76152A23FF97000B4E17 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		E09E76172A23FFD2000B4E17 /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
 		E09E76192A23FFFD000B4E17 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		E09E761B2A2406DB000B4E17 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				E09E76152A23FF97000B4E17 /* AsyncImage.swift */,
+				E09E761B2A2406DB000B4E17 /* IngredientsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				E09E76162A23FF97000B4E17 /* AsyncImage.swift in Sources */,
 				E09E76042A23E30B000B4E17 /* Endpoint.swift in Sources */,
 				E09E76122A23F207000B4E17 /* MealListVM.swift in Sources */,
+				E09E761C2A2406DB000B4E17 /* IngredientsView.swift in Sources */,
 				E09E76142A23FF6F000B4E17 /* MealListCell.swift in Sources */,
 				E09E761A2A23FFFD000B4E17 /* Color+Extension.swift in Sources */,
 				E09E76002A23E160000B4E17 /* MealResponse.swift in Sources */,

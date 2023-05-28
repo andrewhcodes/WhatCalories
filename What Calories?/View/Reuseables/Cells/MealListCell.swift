@@ -1,9 +1,4 @@
-//
-//  MealListCell.swift
-//  What Calories?
-//
-//  Created by Andrew Hernandez on 5/28/23.
-//
+
 
 import SwiftUI
 
