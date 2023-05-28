@@ -14,6 +14,8 @@
 		E09E75D82A23D9A3000B4E17 /* What_Calories_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E75D72A23D9A3000B4E17 /* What_Calories_Tests.swift */; };
 		E09E75E22A23D9A3000B4E17 /* What_Calories_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E75E12A23D9A3000B4E17 /* What_Calories_UITests.swift */; };
 		E09E75E42A23D9A3000B4E17 /* What_Calories_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E75E32A23D9A3000B4E17 /* What_Calories_UITestsLaunchTests.swift */; };
+		E09E75FE2A23E154000B4E17 /* MealDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E75FD2A23E154000B4E17 /* MealDetailResponse.swift */; };
+		E09E76002A23E160000B4E17 /* MealResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E75FF2A23E160000B4E17 /* MealResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E09E75DD2A23D9A3000B4E17 /* What Calories?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What Calories?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09E75E12A23D9A3000B4E17 /* What_Calories_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_Calories_UITests.swift; sourceTree = "<group>"; };
 		E09E75E32A23D9A3000B4E17 /* What_Calories_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_Calories_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E09E75FD2A23E154000B4E17 /* MealDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailResponse.swift; sourceTree = "<group>"; };
+		E09E75FF2A23E160000B4E17 /* MealResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,11 @@
 		E09E75C52A23D9A1000B4E17 /* What Calories? */ = {
 			isa = PBXGroup;
 			children = (
+				E09E75F42A23D9DF000B4E17 /* Utilites */,
+				E09E75F32A23D9D5000B4E17 /* Network */,
+				E09E75F22A23D9CC000B4E17 /* Model */,
+				E09E75F12A23D9BA000B4E17 /* View */,
+				E09E75F02A23D9B2000B4E17 /* ViewModel */,
 				E09E75C62A23D9A1000B4E17 /* What_Calories_App.swift */,
 				E09E75C82A23D9A1000B4E17 /* ContentView.swift */,
 				E09E75CA2A23D9A3000B4E17 /* Assets.xcassets */,
@@ -125,6 +134,107 @@
 				E09E75E32A23D9A3000B4E17 /* What_Calories_UITestsLaunchTests.swift */,
 			);
 			path = "What Calories?UITests";
+			sourceTree = "<group>";
+		};
+		E09E75F02A23D9B2000B4E17 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E09E75F12A23D9BA000B4E17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E09E75FA2A23DA2C000B4E17 /* Reuseables */,
+				E09E75F92A23DA25000B4E17 /* Pages */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E09E75F22A23D9CC000B4E17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E09E75FF2A23E160000B4E17 /* MealResponse.swift */,
+				E09E75FD2A23E154000B4E17 /* MealDetailResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E09E75F32A23D9D5000B4E17 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E09E75F82A23DA0C000B4E17 /* Base */,
+				E09E75F72A23DA05000B4E17 /* Endpoint */,
+				E09E75F62A23D9F6000B4E17 /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E09E75F42A23D9DF000B4E17 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				E09E75F52A23D9ED000B4E17 /* Extensions */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		E09E75F52A23D9ED000B4E17 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E09E75F62A23D9F6000B4E17 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E09E75F72A23DA05000B4E17 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		E09E75F82A23DA0C000B4E17 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E09E75F92A23DA25000B4E17 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		E09E75FA2A23DA2C000B4E17 /* Reuseables */ = {
+			isa = PBXGroup;
+			children = (
+				E09E75FB2A23DA3D000B4E17 /* Cells */,
+				E09E75FC2A23DA90000B4E17 /* Views */,
+			);
+			path = Reuseables;
+			sourceTree = "<group>";
+		};
+		E09E75FB2A23DA3D000B4E17 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E09E75FC2A23DA90000B4E17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +369,8 @@
 			files = (
 				E09E75C92A23D9A1000B4E17 /* ContentView.swift in Sources */,
 				E09E75C72A23D9A1000B4E17 /* What_Calories_App.swift in Sources */,
+				E09E75FE2A23E154000B4E17 /* MealDetailResponse.swift in Sources */,
+				E09E76002A23E160000B4E17 /* MealResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
