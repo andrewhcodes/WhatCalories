@@ -23,6 +23,8 @@
 		E09E760A2A23E342000B4E17 /* MealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E76092A23E342000B4E17 /* MealService.swift */; };
 		E09E760C2A23E352000B4E17 /* Data Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E760B2A23E352000B4E17 /* Data Error.swift */; };
 		E09E760E2A23E35D000B4E17 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E760D2A23E35D000B4E17 /* RequestError.swift */; };
+		E09E76102A23F1FB000B4E17 /* MealDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E760F2A23F1FB000B4E17 /* MealDetailVM.swift */; };
+		E09E76122A23F207000B4E17 /* MealListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E76112A23F207000B4E17 /* MealListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		E09E76092A23E342000B4E17 /* MealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealService.swift; sourceTree = "<group>"; };
 		E09E760B2A23E352000B4E17 /* Data Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Error.swift"; sourceTree = "<group>"; };
 		E09E760D2A23E35D000B4E17 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		E09E760F2A23F1FB000B4E17 /* MealDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailVM.swift; sourceTree = "<group>"; };
+		E09E76112A23F207000B4E17 /* MealListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 		E09E75F02A23D9B2000B4E17 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E09E76112A23F207000B4E17 /* MealListVM.swift */,
+				E09E760F2A23F1FB000B4E17 /* MealDetailVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -390,6 +396,7 @@
 			files = (
 				E09E75C92A23D9A1000B4E17 /* ContentView.swift in Sources */,
 				E09E76022A23E303000B4E17 /* HTTPClient.swift in Sources */,
+				E09E76102A23F1FB000B4E17 /* MealDetailVM.swift in Sources */,
 				E09E76062A23E31A000B4E17 /* HTTPMethod.swift in Sources */,
 				E09E760E2A23E35D000B4E17 /* RequestError.swift in Sources */,
 				E09E760C2A23E352000B4E17 /* Data Error.swift in Sources */,
@@ -398,6 +405,7 @@
 				E09E760A2A23E342000B4E17 /* MealService.swift in Sources */,
 				E09E76082A23E32D000B4E17 /* MealEndpoint.swift in Sources */,
 				E09E76042A23E30B000B4E17 /* Endpoint.swift in Sources */,
+				E09E76122A23F207000B4E17 /* MealListVM.swift in Sources */,
 				E09E76002A23E160000B4E17 /* MealResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
