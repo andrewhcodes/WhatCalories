@@ -8,4 +8,4 @@ Installation
 
 Requirements
 1. The app has the following requirements: 
-iOS 15.0+
+iOS 16.0+
