@@ -7,5 +7,5 @@ Installation
 
 
 Requirements
-The app has the following requirements:
+1. The app has the following requirements: 
 iOS 15.0+
